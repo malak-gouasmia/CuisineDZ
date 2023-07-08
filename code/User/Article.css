@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee');
+
+
+.recipe-page {
+    margin-top: 50px;
+   
+    justify-content: space-between;
+    
+    display: flex;
+    align-items: center;
+    border: 5px solid rgb(210, 209, 195);
+    background-color: rgba(210, 209, 195, 0.338);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 2px 20px #333;
+  }
+  .recettetotale{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .recipe-details {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+  }
+  
+  .recipe-details p {
+    margin: 10px 0;
+  }
+  
+  .optional-video {
+    width: 80%;
+    height: auto;
+  }
+  .recipe-page img {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    width: 600px;
+    height: 500px;
+  
+    border-radius: 10px;
+    box-shadow: 0 2px 20px #333;
+  }  
+
+
+ 

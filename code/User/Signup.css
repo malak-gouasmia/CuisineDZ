@@ -1,0 +1,79 @@
+body {
+  font-family: 'Handlee', sans-serif;
+ 
+}
+
+.titre { margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+
+input[type="hidden"] {
+  display: none;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+
+#valider-add {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#valider-add:hover {
+  background-color: #45a049;
+}

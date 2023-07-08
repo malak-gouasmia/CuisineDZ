@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee');
+#addrecette {
+  display: none; /* Masque le formulaire par défaut */
+  position: absolute; /* Positionne le formulaire de manière absolue */
+  top: 50%; /* Centre le formulaire verticalement */
+  left: 50%; /* Centre le formulaire horizontalement */
+  transform: translate(-50%, -50%); /* Déplace le formulaire de 50% de sa propre largeur et hauteur pour le centrer */
+  width: 500px; /* Définit la largeur du formulaire */
+  padding: 20px; /* Ajoute de l'espace autour du formulaire */
+  background-color: white; /* Définit la couleur de fond du formulaire */
+  border-radius: 10px; /* Ajoute des bords arrondis au formulaire */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Ajoute une ombre au formulaire */
+  transition: all 0.3s ease-in-out; /* Ajoute une transition à toutes les propriétés du formulaire */
+  border-radius: 10px;
+  box-shadow: 0 2px 20px #333;
+}
+.form {
+  display: none; /* Masque le formulaire par défaut */
+  position: absolute; /* Positionne le formulaire de manière absolue */
+  top: 50%; /* Centre le formulaire verticalement */
+  left: 50%; /* Centre le formulaire horizontalement */
+  transform: translate(-50%, -50%); /* Déplace le formulaire de 50% de sa propre largeur et hauteur pour le centrer */
+  width: 500px; /* Définit la largeur du formulaire */
+  padding: 20px; /* Ajoute de l'espace autour du formulaire */
+  background-color: white; /* Définit la couleur de fond du formulaire */
+  border-radius: 10px; /* Ajoute des bords arrondis au formulaire */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Ajoute une ombre au formulaire */
+  transition: all 0.3s ease-in-out; /* Ajoute une transition à toutes les propriétés du formulaire */
+  border-radius: 10px;
+  box-shadow: 0 2px 20px #333;
+}
+#addrecette.show { /* Applique ces règles lorsque la classe "show" est ajoutée au formulaire */
+  display: block; /* Affiche le formulaire */
+  opacity: 1; /* Rend le formulaire visible */
+  box-shadow: 0 2px 20px #333;
+}
+
+#addrecette.hide { /* Applique ces règles lorsque la classe "hide" est ajoutée au formulaire */
+  display: none; /* Masque le formulaire */
+  opacity: 0; /* Rend le formulaire invisible */
+}
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Handlee');
+  #header  {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    border:0.09px solid rgba(210, 209, 195, 0.888);
+    text-align: center;
+  
+  }
+  #logo {
+    margin-left: 20px;
+    height: 7%;
+     width: 8%;
+  }
+  h1{font-family: 'Handlee', sans-serif;   }
+    
+    
+    
+  
+  nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(210, 209, 195, 0.728);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.7);
+    border-radius: 30px;
+   height: 7%;
+   border: 0.1px solid #333;
+    margin-top: 1.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'Handlee', sans-serif;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+  
+  
+  padding-top: 1.5%;
+  padding-bottom: 1.5%; 
+  }
+  nav li {
+    margin-right: 70px;
+  
+  }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+  
+  }
+  
+  input{
+    width: 120px;
+  }
+  
+  nav a:hover {
+  color: #f80000;
+  }
+  .Categorie{
+    text-align: center;
+    margin-top: 50px;
+   
+    justify-content: space-between;
+    font-family: 'Handlee', sans-serif;
+    font-weight: bold;
+    
+    align-items: center;
+    border: 5px solid rgb(210, 209, 195);
+    background-color: rgba(210, 209, 195, 0.338);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 2px 20px #333;
+  }
+  .ajout {
+    text-align: center;
+    margin-top: 50px;
+   display: flex;
+    justify-content: space-between;
+    font-family: 'Handlee', sans-serif;
+    font-weight: bold;
+    
+    align-items: center;
+    border: 5px solid rgb(210, 209, 195);
+    background-color: rgba(210, 209, 195, 0.338);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 2px 20px #333;
+  }
+  section {
+  text-align: center;
+  padding: 20px 0;
+  }
+  
+  button[name="logout"] {
+  background-color: #f44336;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 300px;
+  }
+  
+  button[name="logout"]:hover {
+  background-color: #ff0000;
+  }
+  
+  #addrecette {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  margin: 20px auto;}
+  /* code CSS pour la partie "Gestion de Recette" */
+
+/* style pour la section d'ajout de recette */
+.ajout {
+  padding: 20px;
+  text-align: center;
+  }
+  
+  /* style pour le bouton d'ajout de formulaire */
+  .ajout button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  }
+  
+ 
+  
+  /* style pour les inputs du formulaire */
+  #addrecette input, #addrecette textarea {
+   height: 150%;
+  width: 100%;
+  padding: 2px 0px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  }
+  
+  /* style pour les boutons du formulaire */
+  #addrecette button {
+    
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  }
+  #valider-add-r {
+    background-color: #4CAF50;
+      
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+    
+    border-radius: 20px;
+    }
+  
+  /* style pour le bouton d'annulation */
+  #valider-add {
+    background-color: #4CAF50;
+    
+    border-radius: 20px;
+    }
+  #cancel-button {
+  background-color: #f44336;
+  border-radius: 20px;
+  }
+  
+  /* style pour le tableau de recettes */
+  .tableau {
+    width: 90%;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    padding-right:5px;  
+  padding-bottom: 40px;  
+  font-family: 'Handlee', sans-serif;
+  font-weight: bold;
+  
+  }
+  
+  /* style pour les en-têtes du tableau */
+  .tableau th {box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* style pour les cellules du tableau */
+  .tableau td {
+    width: 0px;
+  padding: 5px;
+  text-align: left;
+  border: 2px solid rgb(0, 0, 0);
+  }
+  
+
+
+    .bedit  {
+      background-color: #4CAF50;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+     
+      }
+      .bdelet  {
+        background-color:  #f44336;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+       
+        }
+
+   
+  /* style pour les boutons d'édition et de suppression */
+  .tableau td button {
+ 
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  }
+  img{
+    width: 40%;
+    height: 30%;
+  }
+  /* style pour le bouton de suppression */
+  .tableau td button.delete {
+  background-color: #f44336;
+  }
